@@ -171,13 +171,14 @@ pre {
   font-weight: bold;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
+  margin-left: 45%;
+  margin-bottom: 0; }
   .site-title, .site-title:visited {
     color: #57474d; }
 
 .site-nav {
-  float: right;
+  margin-left: 49%;
+  float: center;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
