@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ALL In</title>
-    <description>These are the ramblings of Angela Lynn Lindow: wife, mom of 3, lover of startups, fiber arts fan, aspiring developer.
+    <description>ALL: wife, mom of 3, lover of startups, fiber arts fan, aspiring developer.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jun 2016 10:00:21 -0600</pubDate>
-    <lastBuildDate>Wed, 22 Jun 2016 10:00:21 -0600</lastBuildDate>
+    <pubDate>Wed, 22 Jun 2016 10:58:14 -0600</pubDate>
+    <lastBuildDate>Wed, 22 Jun 2016 10:58:14 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>apple.fall(near: tree)</title>
         <description>&lt;p&gt;“What brought you to Turing?”&lt;/p&gt;
 
-&lt;p&gt;I think that’s one of the most asked questions for students at Turing. We are such an eclectic bunch from a variety of countries, backgrounds, and careers. Every student has a unique story that ends on the same path, for now. To tell my story, we have to go way back to my youth.&lt;/p&gt;
-
-&lt;p&gt;Prettyflower40@hotmail.com - That was the e-mail address my dad helped me set up at the age of 11. Not so unusual now, but in Guam in 1998, I was the only one of my peers who had an e-mail address or cared much about computers in general. My dad was a retired Navy Lieutenant Commander and general manager of a shipping company who had taken up all things technology as a hobby. He noticed some inefficiences at his office, and decided to teach himself how to code so he could write a program to solve those problems. We were visiting family in the Philippines when he was ready to start creating his program, but because he did not have access to his computer, he had to write the program by hand. On paper. 80,000 lines of code. No big deal! I guess he did pretty well because the program is still being used by a couple freight companies today.&lt;/p&gt;
+&lt;p&gt;I think that’s one of the most asked questions for students at Turing. We are such an eclectic bunch from a variety of countries, backgrounds, and careers. Every student has a unique story that ends on the same path, for now. To tell my story, we have to go way back to my youth.
+&lt;!--excerpt--&gt;
+Prettyflower40@hotmail.com - That was the e-mail address my dad helped me set up at the age of 11. Not so unusual now, but in Guam in 1998, I was the only one of my peers who had an e-mail address or cared much about computers in general. My dad was a retired Navy Lieutenant Commander and general manager of a shipping company who had taken up all things technology as a hobby. He noticed some inefficiences at his office, and decided to teach himself how to code so he could write a program to solve those problems. We were visiting family in the Philippines when he was ready to start creating his program, but because he did not have access to his computer, he had to write the program by hand. On paper. 80,000 lines of code. No big deal! I guess he did pretty well because the program is still being used by a couple freight companies today.&lt;/p&gt;
 
 &lt;p&gt;Clearly, my dad had a strong love for technology and code. When I was 12, he drew me further in his hobby, planted a love for technology with me, and helped me build a computer from scratch from his stash of spare parts. In middle school, I taught myself enough HTML and CSS to make a simple website. I considered majoring in Computer Science once I graduated high school, but wrongly assumed you had to be a math genius to be successful! Instead, I majored in English Linguistics, which somehow landed me an Accounts Receivables position with a financial tech startup in Denver. The CTO began Learn to Code Lunches, and I attended with the intention of adding on to my list of hobbies that I don’t have time for as a mother of three. He started me off with a basic Ruby course, and three things became very apparent to me. First, learning to code is learning a new language, and you really don’t have to be a mathematician to do it. Second, I was wasting time on an unfulfilling career. Third, I really wanted to quit my job and go back to school to become a developer.&lt;/p&gt;
 
