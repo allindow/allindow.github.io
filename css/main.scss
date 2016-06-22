@@ -29,12 +29,18 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-body { background-image: url("http://eskipaper.com/images/nebula-wallpaper-hd-25.jpg");
-       background-size: cover;
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-      }
-
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #5e5c67;
+  background-image: url("http://ziddle.net/wp-content/uploads/2016/04/background.jpg");
+  background-size: cover;
+  background-color: #000000;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
 
 // Use media queries like this:
 // @include media-query($on-palm) {
