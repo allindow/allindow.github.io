@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #72757b;
+  color: #494a50;
   text-decoration: none; }
   a:visited {
     color: #5e6792; }
@@ -278,7 +278,12 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  width: auto;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 25px;
+  background: rgba(255, 255, 255, 0.3); }
 
 .page-heading {
   font-size: 20px; }
