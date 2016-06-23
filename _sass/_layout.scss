@@ -2,10 +2,13 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 1px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
+    height: 100px;
+    margin: $spacing-unit;
+    background-color: rgba(255, 255, 255, .5);
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -16,19 +19,19 @@
     font-weight: bold;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-left: 45%;
+    margin-left: 42%;
     margin-bottom: 0;
 
 
     &,
     &:visited {
-        color: #57474d;
+        color: #351f27;
     }
 }
 
 .site-nav {
-  margin-left: 49%;
     float: center;
+    text-align: center;
     line-height: 56px;
 
     .menu-icon {
@@ -37,8 +40,8 @@
 
     .page-link {
         color: $text-color;
+        font-weight: 500;
         line-height: $base-line-height;
-
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
@@ -176,7 +179,7 @@
     border: 10px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     margin: 25px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.56);
 }
 
 

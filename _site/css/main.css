@@ -1,9 +1,6 @@
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #5e5c67;
-  background-image: url("http://ziddle.net/wp-content/uploads/2016/04/background.jpg");
-  background-size: cover;
-  background-color: #000000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -23,10 +20,16 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html, body {
+  height: 100%; }
+
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #4c4b60;
-  background-color: #fdfdfd;
+  color: #161d1a;
+  background-image: url("/downloads/trees.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #797f99;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -41,7 +44,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 10px; }
 
 /**
  * Images
@@ -161,9 +164,13 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #130e16;
+  border-top: 1px solid #bda6c9;
   border-bottom: 1px solid #bda6c9;
-  min-height: 56px;
+  height: 100px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
   position: relative; }
 
 .site-title {
@@ -171,19 +178,20 @@ pre {
   font-weight: bold;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-left: 45%;
+  margin-left: 42%;
   margin-bottom: 0; }
   .site-title, .site-title:visited {
-    color: #57474d; }
+    color: #351f27; }
 
 .site-nav {
-  margin-left: 49%;
   float: center;
+  text-align: center;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #4c4b60;
+    color: #161d1a;
+    font-weight: 500;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -192,7 +200,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #797f99;
       border: 1px solid #bda6c9;
       border-radius: 5px;
       text-align: right; }
@@ -283,7 +291,7 @@ pre {
   border: 10px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   margin: 25px;
-  background: rgba(255, 255, 255, 0.3); }
+  background: rgba(255, 255, 255, 0.56); }
 
 .page-heading {
   font-size: 20px; }

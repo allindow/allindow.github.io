@@ -13,9 +13,13 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+ html, body {height: 100%;}
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
+    background-image: url("/downloads/trees.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -34,7 +38,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 3;
 }
 
 
