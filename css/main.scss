@@ -14,8 +14,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #4c4b60;
-$background-color: #fdfdfd;
+$text-color:       #161d1a;
+$background-color: #797f99;
 $brand-color:     #494a50;
 
 $grey-color:       #583e65;
@@ -32,9 +32,6 @@ $on-laptop:        800px;
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #5e5c67;
-  background-image: url("http://ziddle.net/wp-content/uploads/2016/04/background.jpg");
-  background-size: cover;
-  background-color: #000000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
