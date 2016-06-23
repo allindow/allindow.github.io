@@ -20,13 +20,10 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-html, body {
-  height: 100%; }
-
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #161d1a;
-  background-image: url("/downloads/geo.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("/downloads/gradient.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -291,10 +288,10 @@ pre {
 .page-content {
   padding: 30px 0;
   width: auto;
-  border: 10px solid rgba(255, 255, 255, 0.1);
+  border: 10px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   margin: 25px;
-  background: rgba(255, 255, 255, 0.56); }
+  background: rgba(231, 242, 255, 0.3); }
 
 .page-heading {
   font-size: 20px; }

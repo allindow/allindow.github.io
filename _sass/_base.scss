@@ -13,11 +13,11 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
- html, body {height: 100%;}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-image: url("/downloads/geo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),url("/downloads/gradient.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
