@@ -26,9 +26,10 @@ html, body {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #161d1a;
-  background-image: url("/downloads/trees.jpg");
-  background-size: cover;
+  background-image: url("/downloads/geo.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #797f99;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
 
 /**
  * Images
@@ -166,8 +167,10 @@ pre {
 .site-header {
   border-top: 1px solid #bda6c9;
   border-bottom: 1px solid #bda6c9;
-  height: 100px;
+  height: 230px;
   margin: 30px;
+  background-image: url("/downloads/mountains (1).jpg");
+  background-size: cover;
   background-color: rgba(255, 255, 255, 0.5);
   border: 5px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;

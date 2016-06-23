@@ -4,8 +4,10 @@
 .site-header {
     border-top: 1px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
-    height: 100px;
+    height: 230px;
     margin: $spacing-unit;
+    background-image: url("/downloads/mountains (1).jpg");
+    background-size: cover;
     background-color: rgba(255, 255, 255, .5);
     border: 5px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
