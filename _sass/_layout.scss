@@ -24,17 +24,23 @@
     line-height: 56px;
     font-weight: bold;
     letter-spacing: -1px;
-
-
+    text-decoration: none;
 
     &,
     &:visited {
-      color:   rgba(76, 94, 103, 0.65);
-      text-shadow: 0px 2px 3px rgba(127, 92, 77, 0.4);
-
-        // color:   rgba(127, 92, 77, 0.4);
-        // text-shadow: 0px 2px 3px rgba(46, 145, 142, 0.3);
+      color:   rgba(64, 138, 167, 0.45);
+      text-shadow: 0px 2px 3px rgba(127, 92, 77, 0.35);
+      text-decoration: none;
     }
+    &:hover {color:   rgba(64, 138, 167, 0.45);
+    text-shadow: 0px 2px 3px rgba(127, 92, 77, 0.35);
+    text-decoration: none;}
+    &:link  {color:   rgba(64, 138, 167, 0.45);
+    text-shadow: 0px 2px 3px rgba(127, 92, 77, 0.35);
+    text-decoration: none;}
+    &:active {color:   rgba(64, 138, 167, 0.45);
+    text-shadow: 0px 2px 3px rgba(127, 92, 77, 0.35);
+    text-decoration: none;}
 }
 
 .site-nav {
@@ -51,7 +57,7 @@
     }
 
     .page-link {
-        color: #3d5e78;
+        color: #3e5671;
         font-weight: 500;
         line-height: $base-line-height;
         // Gaps between nav items, but not on the last one
