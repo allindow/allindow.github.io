@@ -9,7 +9,7 @@
 excerpt_separator: "<!--excerpt-->"
 webrick:
   headers:
-    My-Header: ALL In - Angela Lynn Lindow
+    My-Header: ALL in - Angela Lynn Lindow
 defaults:
   -
     scope:
@@ -17,11 +17,11 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-title: ALL In
+title: ALL in
 email: angelalindow@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  ALL: wife, mom of 3, lover of
-  startups, fiber arts fan, aspiring developer.
+  ALL: me, wife, mom of 3, lover of
+  startups, Hanson fan, aspiring developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://allindow.github.io # the base hostname & protocol for your site
 twitter_username: allindow
